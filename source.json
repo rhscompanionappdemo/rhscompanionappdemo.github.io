@@ -1,0 +1,56 @@
+{
+    "name": "RHS App Source",
+    "subtitle": "is this real?",
+    "description": "ok",
+    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "website": "https://example.com",
+    "tintColor": "#4185A9",
+    "featuredApps": [
+        "moisttest.BasicTest2"
+    ],
+    "apps": [
+        {
+            "name": "RHS App",
+            "bundleIdentifier": "moisttest.BasicTest2",
+            "developerName": "you know who",
+            "subtitle": "yeah",
+            "localizedDescription": "good",
+            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
+            "tintColor": "#5CA399",
+            "screenshots": [
+                "https://example.com/myapp_portrait_screenshot1.png",
+                "https://example.com/myapp_portrait_screenshot2.png",
+                {
+                    "imageURL": "https://example.com/myapp_landscape_screenshot.png",
+                    "width": 2556,
+                    "height": 1179
+                }
+            ],
+            "versions": [
+                {
+                    "version": "0.0.9a",
+                    "date": "2026-02-05T12:00:00-08:00",
+                    "size": 7473495,
+                    "downloadURL": "https://cdn.discordapp.com/attachments/841803671238869012/1468880803575500992/BasicTest2.ipa?ex=6985a15a&is=69844fda&hm=8634c5ae67a91ae8e7232c74f553ad44f84226f7aabc2dde1af26009dd32cc7c&",
+                    "localizedDescription": "Altstore source",
+                    "minOSVersion": "26.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.default-data-protection",
+                    "get-task-allow"
+                ],
+                "privacy": {
+                    "NSLocationAlwaysAndWhenInUseUsageDescription": "Your location is used to display your position on the indoor map and provide navigation assistance.",
+                    "NSLocationWhenInUseUsageDescription": "Your location is used to display your position on the indoor map.",
+                    "NSCameraUsageDescription": "Your camera is used for OCR document import.",
+                    "NSCalendarsWriteOnlyAccessUsageDescription": "This app needs to add school schedule blocks to your calendar.",
+                    "NSLocationUsageDescription": "Support indoor map features."
+                    }
+            }
+        }
+    ],
+    "news": []
+}

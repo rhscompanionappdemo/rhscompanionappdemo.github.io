@@ -1,11 +1,11 @@
 {
     "name": "RHS App Source",
-    "subtitle": "is this real?",
-    "description": "ok",
-    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+    "subtitle": "Unofficial companion app for RHS",
+    "description": "This is the Altstore source for the RHS App, an unofficial companion app for Richmond High School. It provides features such as an indoor map, schedule viewer, and more.",
+    "iconURL": "https://raw.githubusercontent.com/rhscompanionappdemo/rhscompanionappdemo.github.io/refs/heads/main/app_icon.png",
     "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
     "website": "https://example.com",
-    "tintColor": "#4185A9",
+    "tintColor": "#6e3330",
     "featuredApps": [
         "moisttest.BasicTest2"
     ],
@@ -14,25 +14,32 @@
             "name": "RHS App",
             "bundleIdentifier": "moisttest.BasicTest2",
             "developerName": "you know who",
-            "subtitle": "yeah",
+            "subtitle": "The app provides convenience features for students.",
             "localizedDescription": "good",
-            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
-            "tintColor": "#5CA399",
+            "iconURL": "https://raw.githubusercontent.com/rhscompanionappdemo/rhscompanionappdemo.github.io/refs/heads/main/app_icon.png",
+            "tintColor": "#6e3330",
             "screenshots": [
-                "https://example.com/myapp_portrait_screenshot1.png",
-                "https://example.com/myapp_portrait_screenshot2.png",
-                {
-                    "imageURL": "https://example.com/myapp_landscape_screenshot.png",
-                    "width": 2556,
-                    "height": 1179
-                }
+                "https://raw.githubusercontent.com/rhscompanionappdemo/rhscompanionappdemo.github.io/refs/heads/main/screenshots/frame_cal.png",
+                "https://raw.githubusercontent.com/rhscompanionappdemo/rhscompanionappdemo.github.io/refs/heads/main/screenshots/frame_plt.png",
+                "https://raw.githubusercontent.com/rhscompanionappdemo/rhscompanionappdemo.github.io/refs/heads/main/screenshots/frame_plt_detail.png",
+                "https://raw.githubusercontent.com/rhscompanionappdemo/rhscompanionappdemo.github.io/refs/heads/main/screenshots/frame_profilepng",
+                "https://raw.githubusercontent.com/rhscompanionappdemo/rhscompanionappdemo.github.io/refs/heads/main/screenshots/frame_search.png",
+                "https://raw.githubusercontent.com/rhscompanionappdemo/rhscompanionappdemo.github.io/refs/heads/main/screenshots/frame_timetable.png"
             ],
             "versions": [
+                {
+                    "version": "0.1.0a",
+                    "date": "2026-02-07T21:57:44+0000",
+                    "size": 7606116,
+                    "downloadURL": "https://github.com/rhscompanionappdemo/rhscompanionappdemo.github.io/releases/download/release/BasicTest2.ipa",
+                    "localizedDescription": "Altstore source",
+                    "minOSVersion": "26.0"
+                },
                 {
                     "version": "0.0.5a",
                     "date": "2026-02-05T08:25:08+0000",
                     "size": 7473495,
-                    "downloadURL": "https://cdn.discordapp.com/attachments/841803671238869012/1468880803575500992/BasicTest2.ipa?ex=6985a15a&is=69844fda&hm=8634c5ae67a91ae8e7232c74f553ad44f84226f7aabc2dde1af26009dd32cc7c&",
+                    "downloadURL": "https://example.com/",
                     "localizedDescription": "Altstore source",
                     "minOSVersion": "26.0"
                 }

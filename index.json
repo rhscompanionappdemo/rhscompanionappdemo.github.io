@@ -13,7 +13,7 @@
         {
             "name": "RHS App",
             "bundleIdentifier": "moisttest.BasicTest2",
-            "developerName": "you know who",
+            "developerName": "silly",
             "subtitle": "The app provides convenience features for students.",
             "localizedDescription": "good",
             "iconURL": "https://raw.githubusercontent.com/rhscompanionappdemo/rhscompanionappdemo.github.io/refs/heads/main/app_icon.png",
@@ -27,6 +27,14 @@
                 "https://raw.githubusercontent.com/rhscompanionappdemo/rhscompanionappdemo.github.io/refs/heads/main/screenshots/frame_timetable.png"
             ],
             "versions": [
+                {
+                    "version": "0.1.2a",
+                    "date": "2026-02-12T05:57:49+0000",
+                    "size": 7622916,
+                    "downloadURL": "https://github.com/rhscompanionappdemo/rhscompanionappdemo.github.io/releases/download/0.1.2a/BasicTest2.ipa",
+                    "localizedDescription": "Altstore source",
+                    "minOSVersion": "26.0"
+                },
                 {
                     "version": "0.1.1a",
                     "date": "2026-02-09T03:26:03+0000",

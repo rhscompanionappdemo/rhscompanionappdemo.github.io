@@ -26,6 +26,14 @@
       ],
       "versions": [
         {
+          "version": "0.2.7a",
+          "date": "2026-02-21T19:27:00+0000",
+          "size": 7875057,
+          "downloadURL": "https://github.com/rhscompanionappdemo/rhscompanionappdemo.github.io/releases/download/0.2.6a/BasicTest2.ipa",
+          "localizedDescription": "minor changes",
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.2.6a",
           "date": "2026-02-19T07:21:40+0000",
           "size": 7841996,

@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "schedule": {
+    "plans": {
+      "firstDay": [
+        {
+          "start": "08:45",
+          "end": "11:00",
+          "type": "activity",
+          "title": "Welcome, Assembly & Homeroom",
+          "location": "Gym",
+          "grades": [8]
+        },
+        {
+          "start": "10:30",
+          "end": "11:30",
+          "type": "activity",
+          "title": "Assembly & Homeroom",
+          "location": "Gym",
+          "grades": [9]
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "type": "activity",
+          "title": "Assembly & Homeroom",
+          "location": "Gym",
+          "grades": [10]
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "type": "activity",
+          "title": "IB Meeting",
+          "location": "Multipurpose",
+          "grades": [11]
+        },
+        {
+          "start": "12:30",
+          "end": "13:30",
+          "type": "activity",
+          "title": "Assembly & Homeroom",
+          "location": "Gym",
+          "grades": [11]
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "type": "activity",
+          "title": "Homeroom",
+          "grades": [12]
+        }
+      ]
+    },
+    "dates": {
+      "2026-09-08": "firstDay"
+    }
+  }
+}

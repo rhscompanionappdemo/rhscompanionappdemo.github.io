@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "schedule": {
+    "plans": {
+      "firstDay": [
+        {
+          "start": "08:45",
+          "end": "11:00",
+          "type": "activity",
+          "title": "Welcome in Gym, followed by Assembly and Homeroom",
+          "grades": [8]
+        },
+        {
+          "start": "10:30",
+          "end": "11:30",
+          "type": "activity",
+          "title": "Assembly in Gym, followed by Homeroom",
+          "grades": [9]
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "type": "activity",
+          "title": "Assembly in Gym, followed by Homeroom",
+          "grades": [10]
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "type": "activity",
+          "title": "IB Meeting (Diploma and Course Students)",
+          "location": "Multipurpose",
+          "grades": [11]
+        },
+        {
+          "start": "12:30",
+          "end": "13:30",
+          "type": "activity",
+          "title": "Assembly in Gym, followed by Homeroom",
+          "grades": [11]
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "type": "activity",
+          "title": "Homeroom",
+          "grades": [12]
+        }
+      ]
+    },
+    "dates": {
+      "2026-09-08": "firstDay"
+    }
+  }
+}

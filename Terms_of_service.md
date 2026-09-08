@@ -36,7 +36,13 @@ We may terminate or suspend your access to this application immediately, without
 
 # Third-Party Services
 
-This application may contain links to or integrations with third-party services. We are not responsible for the content, accuracy, or practices of these third-party services. Your use of third-party services is at your own risk and subject to their terms of service and privacy policies.
+This application displays data provided by School District 38 and Richmond Secondary School, Microsoft SharePoint, Google Calendar, and other linked services. It also downloads public schedule-configuration revisions from GitHub Pages.
+
+Third-party data may be delayed, incomplete, inaccurate, changed, or unavailable. Verify important dates, schedules, enrollment details, and notices with the applicable official source. We do not control these services and are not responsible for their content, availability, or data practices. Your use of them is subject to their terms and privacy notices.
+
+# Remote Configuration Revisions
+
+The app may download public configuration revisions to correct or update school dates, bell schedules, calendar settings, and related display information without requiring an app update. These files do not contain your personal data, but they may change information shown by the app.
 
 # Governing Law
 
@@ -47,3 +53,5 @@ These terms and conditions are governed by and construed in accordance with the 
 If you have any questions about these Terms of Service, please contact us at:
 
 https://github.com/rhscompanionappdemo/rhscompanionappdemo.github.io/issues
+
+Updated: September 7, 2026.

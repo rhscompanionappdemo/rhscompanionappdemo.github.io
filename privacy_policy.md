@@ -1,28 +1,36 @@
 ## Data Collection
 
-This app collects only the data necessary to provide its services. We collect:
+The app stores only the information needed for its features:
 
-- Your name and student ID (stored locally and does not leave the device)  
-- Schedule information you provide (stored locally and does not leave the device)
-- Personal Learning Time (PLT) session preferences (communicates with the school API only when authenticating, enrolling, unenrolling or fetching.)
-- Student email (only required for PLT authentication)
+- Your name and student ID, stored locally on your device
+- Schedule information you provide, stored locally on your device
+- Your student email and authentication session, used to sign in to Microsoft SharePoint for PLT features
+- PLT enrollment choices, sent to SharePoint when you enroll or unenroll
 
-All user-generated data is stored locally on your device. 
-The app only communicates with your school's official APIs when necessary 
-for authentication or PLT session management.
+The app does not send your locally stored profile or schedule to a developer-operated server.
 
 ---
 
-## Third-Party Services
+## Third-Party Data Notices
 
-This app connects to your school's systems to fetch:
+The app connects directly to third-party services:
 
-- News articles  
-- PLT session listings  
-- Calendar events  
+- **School District 38 and Richmond Secondary School** — news, school calendar events, and public school information
+- **Microsoft SharePoint** — PLT sign-in, account information, session listings, and enrollment actions
+- **Google Calendar** — public athletics calendar data and calendar pages
+- **GitHub Pages** — public school-configuration manifest and revision files
 
-Authentication is handled through the school's existing systems.
-This app does not control or store data from those services beyond temporary local caching.
+These providers receive ordinary network information, such as your IP address, when your device connects. Microsoft also receives the credentials, account details, and actions needed for PLT. Their handling of data is governed by their own privacy notices and terms.
+
+Third-party data may be delayed, incomplete, inaccurate, changed, or unavailable. Verify important dates, schedules, enrollment details, and notices with the applicable official source.
+
+---
+
+## Web-Based Configuration Revisions
+
+When schedule data loads or refreshes, the app may request a public manifest and its current revision file from `rhscompanionappdemo.github.io`. A revision can update school dates, bell schedules, calendar settings, and related display information without an app update.
+
+The request does not include your name, student ID, email, schedule, SharePoint credentials, or PLT selections. GitHub Pages may log connection information, including your IP address, under GitHub's privacy statement. The downloaded revision is cached on your device.
 
 ---
 
@@ -54,12 +62,12 @@ All permissions are optional and you can manage them in iOS Settings.
 
 We do **NOT**:
 
-- Upload your personal information to our servers  
+- Upload your locally stored profile or schedule to developer-operated servers
 - Share your data with advertisers  
 - Track your usage for analytics  
 - Sell or rent your information  
 
-This is a client-side app — your data stays on your device.
+Data is sent only when needed for a feature you use, such as PLT authentication and enrollment, or as ordinary connection information when fetching third-party content.
 ---
 
 ## Changes to This Privacy Policy
@@ -75,7 +83,8 @@ The app uses local caches to improve performance. These caches may store:
 
 - Cached calendar computations  
 - PLT session data  
-- Temporary web data  
+- News and temporary web data
+- The downloaded school-configuration revision
 
 These caches stay on your device and can be cleared in Settings.
 
@@ -99,4 +108,4 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 
 https://github.com/rhscompanionappdemo/rhscompanionappdemo.github.io/issues
 
-Updated: March 5th, 2026.
+Updated: September 7, 2026.

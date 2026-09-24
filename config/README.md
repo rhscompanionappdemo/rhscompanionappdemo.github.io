@@ -55,3 +55,8 @@ predate accessories ignore the new field.
 Revision 6 adds the September 29, 2026 cruise and retains every timetable override
 from revision 5. Event source:
 https://rhs.sd38.bc.ca/news/2026/09/grad-2027-boat-cruise-information
+
+Revision 7 updates the cruise checklist, removes grade labels from its embedded
+rows, and adds a Markdown directions link. In the app, HTTPS `maps.apple.com/directions`
+links try the system default navigation app, with the original Maps URL as fallback.
+All revision 6 timetable overrides and event times are preserved.

@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "schedule": {
+    "plans": {
+      "standard": [
+        {
+          "start": "08:30",
+          "end": "09:51",
+          "type": "nextBlock"
+        },
+        {
+          "start": "09:59",
+          "end": "11:20",
+          "type": "nextBlock"
+        },
+        {
+          "start": "11:28",
+          "end": "12:49",
+          "type": "nextBlock"
+        },
+        {
+          "start": "12:49",
+          "end": "13:34",
+          "type": "lunch"
+        },
+        {
+          "start": "13:39",
+          "end": "15:00",
+          "type": "nextBlock"
+        }
+      ],
+      "plt": [
+        {
+          "start": "08:30",
+          "end": "09:36",
+          "type": "nextBlock"
+        },
+        {
+          "start": "09:41",
+          "end": "10:41",
+          "type": "plt"
+        },
+        {
+          "start": "10:49",
+          "end": "11:55",
+          "type": "nextBlock"
+        },
+        {
+          "start": "11:55",
+          "end": "12:35",
+          "type": "lunch"
+        },
+        {
+          "start": "12:40",
+          "end": "13:46",
+          "type": "nextBlock"
+        },
+        {
+          "start": "13:54",
+          "end": "15:00",
+          "type": "nextBlock"
+        }
+      ],
+      "collaboration": [
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "type": "collaboration"
+        },
+        {
+          "start": "09:35",
+          "end": "10:41",
+          "type": "nextBlock"
+        },
+        {
+          "start": "10:49",
+          "end": "11:55",
+          "type": "nextBlock"
+        },
+        {
+          "start": "11:55",
+          "end": "12:35",
+          "type": "lunch"
+        },
+        {
+          "start": "12:40",
+          "end": "13:46",
+          "type": "nextBlock"
+        },
+        {
+          "start": "13:54",
+          "end": "15:00",
+          "type": "nextBlock"
+        }
+      ],
+      "terryFoxRun": [
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "type": "nextBlock"
+        },
+        {
+          "start": "09:40",
+          "end": "10:50",
+          "type": "nextBlock"
+        },
+        {
+          "start": "10:50",
+          "end": "12:00",
+          "type": "activity",
+          "title": "Terry Fox Run"
+        },
+        {
+          "start": "12:00",
+          "end": "12:45",
+          "type": "lunch"
+        },
+        {
+          "start": "12:50",
+          "end": "13:50",
+          "type": "nextBlock"
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "type": "nextBlock"
+        }
+      ],
+      "boatCruise": [
+        {
+          "start": "17:45",
+          "end": "18:15",
+          "type": "activity",
+          "title": "Boarding",
+          "location": "Dock B · Pacific Boulevard Marina",
+          "grades": [
+            12
+          ]
+        },
+        {
+          "start": "18:15",
+          "end": "21:15",
+          "type": "activity",
+          "title": "Boat Cruise",
+          "location": "M.V. Queen of Diamonds",
+          "grades": [
+            12
+          ]
+        }
+      ]
+    },
+    "dates": {
+      "2026-09-22": "terryFoxRun"
+    },
+    "accessories": {
+      "2026-09-29": {
+        "title": "Grad Boat Cruise",
+        "systemImage": "ferry.fill",
+        "markdown": "Board the **M.V. Queen of Diamonds** at Dock B, Pacific Boulevard Marina, 750 Pacific Boulevard, Vancouver.\n\n[Get directions](https://maps.apple.com/directions?destination=750%20Pacific%20Boulevard%2C%20Vancouver%2C%20BC)\n\n```schedule\nboatCruise\n```\n\n## Before you go\n\n- Bring your RSS student ID.\n- Allow at least an hour for travel.\n- Departs at **6:15 PM sharp**.\n- Arrange a ride home for **9:15 PM**.\n- Bring a small bag; all bags will be checked.\n- No liquids, smoking, vaping, alcohol, or drugs are allowed.\n\n[Read the school announcement](https://rhs.sd38.bc.ca/news/2026/09/grad-2027-boat-cruise-information)\n",
+        "grades": [
+          12
+        ]
+      }
+    }
+  }
+}

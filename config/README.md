@@ -60,3 +60,9 @@ Revision 7 updates the cruise checklist, removes grade labels from its embedded
 rows, and adds a Markdown directions link. In the app, HTTPS `maps.apple.com/directions`
 links try the system default navigation app, with the original Maps URL as fallback.
 All revision 6 timetable overrides and event times are preserved.
+
+Revision 8 restores Grade 12 eligibility on cruise rows and sets accessory `grades: [12]`.
+Optional accessory `grades` uses unique grade values from 8 through 12; omit it
+for all grades. Accessories follow the profile grade and “Show other grades” preference,
+including showing events when the profile grade is unknown. Embedded rows retain
+their own eligibility; hiding a grade label does not change eligibility.
